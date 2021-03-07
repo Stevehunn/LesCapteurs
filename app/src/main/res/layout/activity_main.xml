@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_margin="30dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+    <TextView
+        android:id="@+id/bienvenue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenue, veuillez choisir un capteur"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btLoca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Localisation"
+        tools:layout_editor_absoluteX="134dp"
+        tools:layout_editor_absoluteY="196dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btOri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="orientation"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="283dp"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/btPhoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Photo"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="368dp"
+        android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>
